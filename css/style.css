@@ -1,3 +1,12 @@
+html {
+  background-color: #aba8a6;
+}
+
+html,h1,h2,h3,h4,h5,h6 {
+  font-family: 'Montserrat', sans-serif;
+  color: #3e3e3e;
+}
+
 .all {  display: grid;
     grid-template-columns: 1fr 3fr;
     grid-template-rows: 1fr;
@@ -33,12 +42,12 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .sidebar-content .card a {
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 18px;
+    font-weight: 600;
     color: rgb(255, 255, 255);
 }
 
